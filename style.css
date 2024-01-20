@@ -303,3 +303,66 @@ section .button button:hover{
  font-size: 60px;
  color: #CD7F32;
 }
+* My Projects CSS */
+.projects .boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.projects .boxes .box{
+  margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 12px;
+  padding: 30px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  transition: all 0.4s ease;
+}
+
+.projects .boxes .box .icon{
+  height: 50px;
+  width: 50px;
+  background: #CD7F32;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto 10px auto;
+  transition: all 0.4s ease;
+}
+.boxes .box .button{
+  outline: none;
+  padding: 0px 22px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  background: #CD7F32;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+.boxes .box .button:hover{
+  border-color: #CD7F32;
+  background-color: #fff;
+  color: #cd7f32;
+}
+
+/* Contact Me CSS */
+.contact{
+  background: #F0F8FF;
+}
+.contact .content{
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.contact .text{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+.contact .email-details a{
+  color:#CD7F32
+}
